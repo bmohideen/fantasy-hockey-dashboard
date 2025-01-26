@@ -19,3 +19,10 @@ def fetch_fantasy_team_data(league_id, season_id, team_id, espn_s2, swid):
     else:
         st.error(f"Failed to fetch data: {response.status_code}")
         return None
+    
+# defining inputs for the function
+league_id = "419220233"
+season_id = "2025"
+team_id = "8"
+espn_s2 = "AECrbCxSDYAsEOTBJQryjbMBUKLBexs8d8uHArXqmeHB6HbBUk0QgHCLiHkFCbixlYN9bIkaaF0W%2BNVR%2BXfeGqhZkR1zkEvUiS8aJOx61mq1KpxsXXiyg9V8Jzsk1A051FjurJUvSfOHv2WjgAeh0Mjxx%2FG%2FeLQYk8k0VJ1WsvOs6mf9UHEizoelxAnuC%2BiVYlL7GoIXIZnHwONkl2ml1I6Af1f%2FsyBfaVA35UXRHHD9lVJ8t92PHsKAIYiYlRYAqkO7I54rNdls%2FF2GttcL%2B242ARh86GCgsiewXprufIEmtQ%3D%3D" 
+swid = "{EC688D8E-6470-412F-8C38-809400D9316B}"
